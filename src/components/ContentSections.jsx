@@ -182,7 +182,7 @@ export function Offer() {
               <PrimaryButton className="mt-8">Ver carros disponíveis</PrimaryButton>
             </div>
             <div className="relative min-h-72 overflow-hidden lg:min-h-full">
-              <img src="/images/sellcar-hero.png" alt="" className="absolute inset-0 size-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}images/sellcar-hero.png`} alt="" className="absolute inset-0 size-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-transparent to-transparent lg:bg-gradient-to-r" />
             </div>
           </div>
